@@ -1,0 +1,8 @@
+commonLabels:
+  variant: sandbox
+
+namespace: geolocation-sandbox
+
+resources:
+- ./geolocation
+- namespace.yml

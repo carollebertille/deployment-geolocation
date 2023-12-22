@@ -1,0 +1,8 @@
+commonLabels:
+  app: geolocation
+
+namespace: geolocation-original
+
+resources:
+- ./geolocation
+- namespace.yml

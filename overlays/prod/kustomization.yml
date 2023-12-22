@@ -1,0 +1,8 @@
+commonLabels:
+  variant: prod
+
+namespace: geolocation-prod
+
+resources:
+- ./geolocation
+- namespace.yml

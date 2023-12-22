@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: geolocation
+  labels:
+    app: geolocation
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: geolocation
+    spec:
+      containers:
+      - image: edennolan2021/geolocation:v1
+        imagePullPolicy: Always
+        name: geolocation
+        ports:
+        - containerPort: 8082
+          name: geolocation

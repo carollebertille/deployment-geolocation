@@ -1,0 +1,8 @@
+commonLabels:
+  variant: dev
+
+namespace: geolocation-dev
+
+resources:
+- ./geolocation
+- namespace.yml
